@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>African Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Icons style sheets-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    </head>
+
+  <body>
+    <div class="container">
+        <div class="wrapper">`
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Enter text"></textarea>
+                <textarea class="to-text" placeholder="Translation"></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <i id="upload" class="fas fa-upload"></i> <!-- For file upload -->
+                        <i id="record" class="fas fa-microphone"></i> <!-- For recording -->
+                        <i id="copy" class="far fa-copy"></i> <!-- For copying text -->
+                        
+                    </div><!-- icons ends -->
+                    <select class="from-select">
+                        
+                    </select>
+                </li>
+                <li class="exchange"><i class="fas fa-exchange"></i></li>
+                <li class="row to">
+                    <select class="to-select">
+                    </select>
+                    <div class="icons">
+                        <i id="upload" class="fas fa-download"></i> <!-- For file upload -->
+                        <i id="record" class="fas fa-microphone"></i> <!-- For recording -->
+                        <i id="copy" class="far fa-copy"></i> <!-- For copying text -->
+                        
+                    </div><!-- icons ends -->
+                </li>
+            </ul>
+        </div><!-- wrapper ends -->
+        <button>Translate</button>
+    </div><!-- container ends -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
